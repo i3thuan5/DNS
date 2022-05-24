@@ -1,0 +1,91 @@
+;;
+;; Domain:     ithuan.tw.
+;; Exported:   2022-05-24 07:47:12
+;;
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;;
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;;
+;; http://www.isc.org/
+;;
+;; And RFC 1035:
+;;
+;; http://www.ietf.org/rfc/rfc1035.txt
+;;
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;;
+;; Use at your own risk.
+;; SOA Record
+ithuan.tw	3600	IN	SOA	ithuan.tw root.ithuan.tw 2040504503 7200 3600 86400 3600
+
+;; A Records
+asuscloud-twcc.ithuan.tw.	1	IN	A	203.145.222.59
+bauzak.ithuan.tw.	1	IN	A	60.248.44.30
+fafoy.ithuan.tw.	1	IN	A	60.248.44.30
+tws.ithuan.tw.	1	IN	A	203.145.215.167
+
+;; CNAME Records
+asuscloud-test.ithuan.tw.	1	IN	CNAME	asuscloud-media.ithuan.tw.
+dbkaxabu.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+hackmd.ithuan.tw.	1	IN	CNAME	xn--thun-doa0d.hackmd.io.
+hapoy.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+hapsing.ithuan.tw.	1	IN	CNAME	fafoy.ithuan.tw.
+hokbu.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+hts.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+imtong.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+ithuan.tw.	1	IN	CNAME	i3thuan5.github.io.
+jiboo.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+kaxabu.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+lamal.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+lomaji.ithuan.tw.	1	IN	CNAME	i3thuan5.github.io.
+onmt.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+pabuy.ithuan.tw.	1	IN	CNAME	tws.ithuan.tw.
+pakkhotai.ithuan.tw.	1	IN	CNAME	bauzak.ithuan.tw.
+pazeh.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+piansik.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+piautsunhua.ithuan.tw.	1	IN	CNAME	bauzak.ithuan.tw.
+pisalofan.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+puniq.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+sapuz.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+suisiann-dataset.ithuan.tw.	1	IN	CNAME	i3thuan5.github.io.
+suisiann.ithuan.tw.	1	IN	CNAME	i3thuan5.github.io.
+suisiann-kautui.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+sujiphuat.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+sujiphuat-static.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+sujiphuat-tongan.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+sului.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+sului-susing.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+sungibfab.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+susing.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+sutian10.ithuan.tw.	1	IN	CNAME	sutian.ithuan.tw.
+sutian8.ithuan.tw.	1	IN	CNAME	sutian.ithuan.tw.
+sutian.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+sutian-jithe.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+sutian-moe.ithuan.tw.	1	IN	CNAME	miasenn.moe.edu.tw.
+tauphahji.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+tensu-hokbu.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+tensu.ithuan.tw.	1	IN	CNAME	i3thuan5.github.io.
+tong.ithuan.tw.	1	IN	CNAME	fafoy.ithuan.tw.
+tsuanma.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+twcc.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+
+;; MX Records
+ithuan.tw.	86400	IN	MX	1 aspmx.l.google.com.
+ithuan.tw.	86400	IN	MX	5 alt1.aspmx.l.google.com.
+ithuan.tw.	86400	IN	MX	5 alt2.aspmx.l.google.com.
+ithuan.tw.	86400	IN	MX	10 aspmx2.googlemail.com.
+ithuan.tw.	86400	IN	MX	10 aspmx3.googlemail.com.
+
+;; TXT Records
+ithuan._domainkey.ithuan.tw.	1	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4eoFzoQMGd/8Y8fkLYtWC7+BRzyq61aHz+xxp/zC8glRz/vZj90IK3QBld1TmiNSgL99KaQZotClI7I02XYBt2wu86LyHNdUq6nL0XpvlTU9QihrZD/N6KkYZ+xygbbNfZtEL5HFgBh3/hOmyGgOjGaAoJVrrd1gVbd2IT0iGgf9DJ38hdWtPqZaZt5ozhANQxhF62SW5gAX1jaZ3cJia6B7w+xm8n/aCKL2EEdWkcEBOtNk5S27tetFurCTQ8elG/lFgnXe+9Ea1jCWs4o8AbPL7eB8/Bt9Kjfgj/OumASic6AQxIyZo7THX98hfHHZZ6518UWx3EWKGB67p9B33QIDAQAB"
+ithuan.tw.	1	IN	TXT	"google-site-verification=2rO0UGnumPEUMP-LT2t_IP8hFzpBWqjZxNWiFyvIvkw"
+ithuan.tw.	1	IN	TXT	"v=spf1 include:_spf.google.com ~all"
+sutian.ithuan.tw.	1	IN	TXT	"detectify-verification=9973a9ad21c24bb29723191996380863"
