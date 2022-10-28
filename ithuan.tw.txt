@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     ithuan.tw.
-;; Exported:   2022-10-14 05:49:02
+;; Exported:   2022-10-28 06:23:38
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,9 +24,10 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-ithuan.tw	3600	IN	SOA	ithuan.tw root.ithuan.tw 2041739314 7200 3600 86400 3600
+ithuan.tw	3600	IN	SOA	ithuan.tw root.ithuan.tw 2041860481 7200 3600 86400 3600
 
 ;; A Records
+asuscloud-pihun.ithuan.tw.	1	IN	A	211.73.81.88
 asuscloud-twcc.ithuan.tw.	1	IN	A	203.145.222.59
 diong.ithuan.tw.	1	IN	A	211.73.81.182
 sirilist.ithuan.tw.	1	IN	A	203.145.214.168
@@ -51,7 +52,6 @@ onmt.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
 pabuy.ithuan.tw.	1	IN	CNAME	tws.ithuan.tw.
 pazeh.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
 piansik.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
-pisalofan.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
 puniq.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
 sapuz.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
 sirilist-staging.ithuan.tw.	1	IN	CNAME	sirilist.ithuan.tw.
