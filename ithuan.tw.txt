@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     ithuan.tw.
-;; Exported:   2022-11-01 01:06:02
+;; Exported:   2022-11-29 06:08:28
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-ithuan.tw	3600	IN	SOA	ithuan.tw root.ithuan.tw 2041893136 7200 3600 86400 3600
+ithuan.tw	3600	IN	SOA	ithuan.tw root.ithuan.tw 2042136870 7200 3600 86400 3600
 
 ;; A Records
 asuscloud-pihun.ithuan.tw.	1	IN	A	211.73.81.88
@@ -60,7 +60,8 @@ sujiphuat.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
 sului.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
 sului-susing.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
 susing.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
-sutian.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
+sutian.ithuan.tw.	1	IN	CNAME	i3thuan5.github.io.
+sutian-moe.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 tauphahji.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
 tensu-hokbu.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
 tensu.ithuan.tw.	1	IN	CNAME	i3thuan5.github.io.
