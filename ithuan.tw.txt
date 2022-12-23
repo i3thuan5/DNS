@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     ithuan.tw.
-;; Exported:   2022-11-29 06:08:28
+;; Exported:   2022-12-23 03:33:08
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-ithuan.tw	3600	IN	SOA	ithuan.tw root.ithuan.tw 2042136870 7200 3600 86400 3600
+ithuan.tw	3600	IN	SOA	ithuan.tw root.ithuan.tw 2042343298 7200 3600 86400 3600
 
 ;; A Records
 asuscloud-pihun.ithuan.tw.	1	IN	A	211.73.81.88
@@ -35,6 +35,7 @@ tws.ithuan.tw.	1	IN	A	203.145.215.167
 
 ;; CNAME Records
 dbkaxabu.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+gh-page.ithuan.tw.	1	IN	CNAME	i3thuan5.github.io.
 hackmd.ithuan.tw.	1	IN	CNAME	xn--thun-doa0d.hackmd.io.
 hapoy.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
 hapsing.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
@@ -46,7 +47,7 @@ jiboo.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
 kaxabu.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
 khipuann.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
 lamal.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
-lomaji.ithuan.tw.	1	IN	CNAME	i3thuan5.github.io.
+lomaji.ithuan.tw.	1	IN	CNAME	gh-page.ithuan.tw.
 onmt.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
 pabuy.ithuan.tw.	1	IN	CNAME	tws.ithuan.tw.
 pazeh.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
@@ -54,7 +55,7 @@ piansik.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
 puniq.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
 sapuz.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
 suisiann-dataset.ithuan.tw.	1	IN	CNAME	i3thuan5.github.io.
-suisiann.ithuan.tw.	1	IN	CNAME	i3thuan5.github.io.
+suisiann.ithuan.tw.	1	IN	CNAME	gh-page.ithuan.tw.
 suisiann-kautui.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
 sujiphuat.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
 sului.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
@@ -64,7 +65,7 @@ sutian.ithuan.tw.	1	IN	CNAME	i3thuan5.github.io.
 sutian-moe.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 tauphahji.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
 tensu-hokbu.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
-tensu.ithuan.tw.	1	IN	CNAME	i3thuan5.github.io.
+tensu.ithuan.tw.	1	IN	CNAME	gh-page.ithuan.tw.
 
 ;; MX Records
 ithuan.tw.	86400	IN	MX	1 aspmx.l.google.com.
