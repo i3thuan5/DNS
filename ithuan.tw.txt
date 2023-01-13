@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     ithuan.tw.
-;; Exported:   2022-12-23 03:33:08
+;; Exported:   2023-01-13 06:36:32
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,11 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-ithuan.tw	3600	IN	SOA	ithuan.tw root.ithuan.tw 2042343298 7200 3600 86400 3600
+ithuan.tw	3600	IN	SOA	dan.ns.cloudflare.com dns.cloudflare.com 2042525839 10000 2400 604800 3600
+
+;; NS Records
+ithuan.tw.	86400	IN	NS	dan.ns.cloudflare.com.
+ithuan.tw.	86400	IN	NS	roxy.ns.cloudflare.com.
 
 ;; A Records
 asuscloud-pihun.ithuan.tw.	1	IN	A	211.73.81.88
@@ -40,7 +44,7 @@ hackmd.ithuan.tw.	1	IN	CNAME	xn--thun-doa0d.hackmd.io.
 hapoy.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
 hapsing.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 hokbu.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
-hts.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+hts.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 imtong.ithuan.tw.	1	IN	CNAME	piansik.ithuan.tw.
 ithuan.tw.	1	IN	CNAME	i3thuan5.github.io.
 jiboo.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.

@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     itaigi.tw.
-;; Exported:   2022-05-24 07:46:48
+;; Exported:   2023-01-13 06:37:25
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,12 +24,17 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-itaigi.tw	3600	IN	SOA	itaigi.tw root.itaigi.tw 2040504500 7200 3600 86400 3600
+itaigi.tw	3600	IN	SOA	dan.ns.cloudflare.com dns.cloudflare.com 2042525844 10000 2400 604800 3600
+
+;; NS Records
+itaigi.tw.	86400	IN	NS	dan.ns.cloudflare.com.
+itaigi.tw.	86400	IN	NS	roxy.ns.cloudflare.com.
 
 ;; CNAME Records
-itaigi.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+itaigi.tw.	1	IN	CNAME	diong.ithuan.tw.
 leku.itaigi.tw.	1	IN	CNAME	pabuy.ithuan.tw.
 miasenn.itaigi.tw.	1	IN	CNAME	pabuy.ithuan.tw.
 
 ;; TXT Records
+itaigi.tw.	1	IN	TXT	"detectify-verification=5b209cda61a38f79d055d9f7b85402d3"
 itaigi.tw.	1	IN	TXT	"google-site-verification=YPoIIlR4EGsLHaiK7NOsHzkfO2uknUF4xHLidl4PlBk"
