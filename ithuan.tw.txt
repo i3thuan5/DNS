@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     ithuan.tw.
-;; Exported:   2023-05-22 07:12:41
+;; Exported:   2023-05-24 03:23:57
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-ithuan.tw	3600	IN	SOA	dan.ns.cloudflare.com dns.cloudflare.com 2043640616 10000 2400 604800 3600
+ithuan.tw	3600	IN	SOA	dan.ns.cloudflare.com dns.cloudflare.com 2043656523 10000 2400 604800 3600
 
 ;; NS Records
 ithuan.tw.	86400	IN	NS	dan.ns.cloudflare.com.
@@ -40,22 +40,21 @@ tws.ithuan.tw.	1	IN	A	211.73.81.184
 dbkaxabu.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
 gh-page.ithuan.tw.	1	IN	CNAME	i3thuan5.github.io.
 hackmd.ithuan.tw.	1	IN	CNAME	xn--thun-doa0d.hackmd.io.
-hapoy.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+hapoy.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 hapsing.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
-hokbu.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+hokbu.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 hts.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
-imtong.ithuan.tw.	1	IN	CNAME	piansik.ithuan.tw.
 ithuan.tw.	1	IN	CNAME	i3thuan5.github.io.
 jiboo.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
 kaxabu.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
 khipuann.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
-lamal.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+lamal.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 lomaji.ithuan.tw.	1	IN	CNAME	gh-page.ithuan.tw.
 onmt.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 pabuy.ithuan.tw.	1	IN	CNAME	tws.ithuan.tw.
-piansik.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
-puniq.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
-sapuz.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+piansik.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
+puniq.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
+sapuz.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 suisiann-dataset.ithuan.tw.	1	IN	CNAME	i3thuan5.github.io.
 suisiann.ithuan.tw.	1	IN	CNAME	gh-page.ithuan.tw.
 suisiann-kautui.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
@@ -65,8 +64,8 @@ sungibfab.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 susing.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 sutian.ithuan.tw.	1	IN	CNAME	i3thuan5.github.io.
 sutian-moe.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
-tauphahji.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
-tensu-hokbu.ithuan.tw.	1	IN	CNAME	pabuy.ithuan.tw.
+tauphahji.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
+tensu-hokbu.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 tensu.ithuan.tw.	1	IN	CNAME	gh-page.ithuan.tw.
 tongan-puntiunn.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 
