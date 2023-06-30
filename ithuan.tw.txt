@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     ithuan.tw.
-;; Exported:   2023-05-26 02:07:56
+;; Exported:   2023-06-30 02:37:25
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-ithuan.tw	3600	IN	SOA	dan.ns.cloudflare.com dns.cloudflare.com 2043673347 10000 2400 604800 3600
+ithuan.tw	3600	IN	SOA	dan.ns.cloudflare.com dns.cloudflare.com 2043975924 10000 2400 604800 3600
 
 ;; NS Records
 ithuan.tw.	86400	IN	NS	dan.ns.cloudflare.com.
@@ -58,8 +58,6 @@ sujiphuat.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 sului.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 sungibfab.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 susing.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
-sutian.ithuan.tw.	1	IN	CNAME	i3thuan5.github.io.
-sutian-moe.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 tauphahji.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 tensu-hokbu.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 tensu.ithuan.tw.	1	IN	CNAME	gh-page.ithuan.tw.
@@ -77,4 +75,3 @@ _github-challenge-i3thuan5-org.ithuan.tw.	1	IN	TXT	"a9f04816e7"
 ithuan._domainkey.ithuan.tw.	1	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4eoFzoQMGd/8Y8fkLYtWC7+BRzyq61aHz+xxp/zC8glRz/vZj90IK3QBld1TmiNSgL99KaQZotClI7I02XYBt2wu86LyHNdUq6nL0XpvlTU9QihrZD/N6KkYZ+xygbbNfZtEL5HFgBh3/hOmyGgOjGaAoJVrrd1gVbd2IT0iGgf9DJ38hdWtPqZaZt5ozhANQxhF62SW5gAX1jaZ3cJia6B7w+xm8n/aCKL2EEdWkcEBOtNk5S27tetFurCTQ8elG/lFgnXe+9Ea1jCWs4o8AbPL7eB8/Bt9Kjfgj/OumASic6AQxIyZo7THX98hfHHZZ6518UWx3EWKGB67p9B33QIDAQAB"
 ithuan.tw.	1	IN	TXT	"google-site-verification=2rO0UGnumPEUMP-LT2t_IP8hFzpBWqjZxNWiFyvIvkw"
 ithuan.tw.	1	IN	TXT	"v=spf1 include:_spf.google.com ~all"
-sutian.ithuan.tw.	1	IN	TXT	"detectify-verification=5b209cda61a38f79d055d9f7b85402d3"
