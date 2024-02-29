@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     ithuan.tw.
-;; Exported:   2023-08-10 03:35:38
+;; Exported:   2024-02-29 07:13:49
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,16 +24,17 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-ithuan.tw	3600	IN	SOA	dan.ns.cloudflare.com dns.cloudflare.com 2044330513 10000 2400 604800 3600
+ithuan.tw	3600	IN	SOA	dan.ns.cloudflare.com. dns.cloudflare.com. 2046085742 10000 2400 604800 3600
 
 ;; NS Records
 ithuan.tw.	86400	IN	NS	dan.ns.cloudflare.com.
 ithuan.tw.	86400	IN	NS	roxy.ns.cloudflare.com.
 
 ;; A Records
-asuscloud-pihun.ithuan.tw.	1	IN	A	211.73.81.88
+asuscloud-pihun.ithuan.tw.	1	IN	A	203.145.218.110
 asuscloud-twcc.ithuan.tw.	1	IN	A	203.145.222.59
 diong.ithuan.tw.	1	IN	A	211.73.81.182
+linsiw.ithuan.tw.	1	IN	A	103.124.72.27
 
 ;; CNAME Records
 dbkaxabu.ithuan.tw.	1	IN	CNAME	kaxabu.ithuan.tw.
@@ -73,6 +74,6 @@ ithuan.tw.	86400	IN	MX	10 aspmx3.googlemail.com.
 
 ;; TXT Records
 _github-challenge-i3thuan5-org.ithuan.tw.	1	IN	TXT	"a9f04816e7"
-ithuan._domainkey.ithuan.tw.	1	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4eoFzoQMGd/8Y8fkLYtWC7+BRzyq61aHz+xxp/zC8glRz/vZj90IK3QBld1TmiNSgL99KaQZotClI7I02XYBt2wu86LyHNdUq6nL0XpvlTU9QihrZD/N6KkYZ+xygbbNfZtEL5HFgBh3/hOmyGgOjGaAoJVrrd1gVbd2IT0iGgf9DJ38hdWtPqZaZt5ozhANQxhF62SW5gAX1jaZ3cJia6B7w+xm8n/aCKL2EEdWkcEBOtNk5S27tetFurCTQ8elG/lFgnXe+9Ea1jCWs4o8AbPL7eB8/Bt9Kjfgj/OumASic6AQxIyZo7THX98hfHHZZ6518UWx3EWKGB67p9B33QIDAQAB"
+ithuan._domainkey.ithuan.tw.	1	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4eoFzoQMGd/8Y8fkLYtWC7+BRzyq61aHz+xxp/zC8glRz/vZj90IK3QBld1TmiNSgL99KaQZotClI7I02XYBt2wu86LyHNdUq6nL0XpvlTU9QihrZD/N6KkYZ+xygbbNfZtEL5HFgBh3/hOmyGgOjGaAoJVrrd1gVbd2IT0iGgf9DJ38hdWtPqZaZt5ozhA" "NQxhF62SW5gAX1jaZ3cJia6B7w+xm8n/aCKL2EEdWkcEBOtNk5S27tetFurCTQ8elG/lFgnXe+9Ea1jCWs4o8AbPL7eB8/Bt9Kjfgj/OumASic6AQxIyZo7THX98hfHHZZ6518UWx3EWKGB67p9B33QIDAQAB"
 ithuan.tw.	1	IN	TXT	"google-site-verification=2rO0UGnumPEUMP-LT2t_IP8hFzpBWqjZxNWiFyvIvkw"
 ithuan.tw.	1	IN	TXT	"v=spf1 include:_spf.google.com ~all"
