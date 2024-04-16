@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     ithuan.tw.
-;; Exported:   2024-04-16 01:00:27
+;; Exported:   2024-04-16 05:47:17
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-ithuan.tw	3600	IN	SOA	dan.ns.cloudflare.com. dns.cloudflare.com. 2046489582 10000 2400 604800 3600
+ithuan.tw	3600	IN	SOA	dan.ns.cloudflare.com. dns.cloudflare.com. 2046491303 10000 2400 604800 3600
 
 ;; NS Records
 ithuan.tw.	86400	IN	NS	dan.ns.cloudflare.com.
@@ -44,14 +44,14 @@ hts.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 ithuan.tw.	1	IN	CNAME	i3thuan5.github.io.
 kaxabu.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 lamal.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
-lomaji.ithuan.tw.	1	IN	CNAME	gh-page.ithuan.tw.
+lomaji.ithuan.tw.	1	IN	CNAME	i3thuan5.github.io.
 mitengilay-no-misanopangcah.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 onmt.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 piansik.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 puniq.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 sapuz.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 suisiann-dataset.ithuan.tw.	1	IN	CNAME	i3thuan5.github.io.
-suisiann.ithuan.tw.	1	IN	CNAME	gh-page.ithuan.tw.
+suisiann.ithuan.tw.	1	IN	CNAME	i3thuan5.github.io.
 suisiann-kautui.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 sujiphuat.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 sului.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
@@ -59,7 +59,7 @@ sungibfab.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 susing.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 tauphahji.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 tensu-hokbu.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
-tensu.ithuan.tw.	1	IN	CNAME	gh-page.ithuan.tw.
+tensu.ithuan.tw.	1	IN	CNAME	i3thuan5.github.io.
 tongan-puntiunn.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 
 ;; MX Records
