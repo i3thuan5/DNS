@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     ithuan.tw.
-;; Exported:   2024-04-24 05:46:21
+;; Exported:   2024-06-03 08:39:12
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-ithuan.tw	3600	IN	SOA	dan.ns.cloudflare.com. dns.cloudflare.com. 2046560418 10000 2400 604800 3600
+ithuan.tw	3600	IN	SOA	dan.ns.cloudflare.com. dns.cloudflare.com. 2046907055 10000 2400 604800 3600
 
 ;; NS Records
 ithuan.tw.	86400	IN	NS	dan.ns.cloudflare.com.
@@ -33,6 +33,7 @@ ithuan.tw.	86400	IN	NS	roxy.ns.cloudflare.com.
 ;; A Records
 asuscloud-twcc.ithuan.tw.	1	IN	A	203.145.222.59
 diong.ithuan.tw.	1	IN	A	211.73.81.182
+mitengilay.ithuan.tw.	1	IN	A	103.124.72.55
 
 ;; CNAME Records
 dbkaxabu.ithuan.tw.	1	IN	CNAME	kaxabu.ithuan.tw.
