@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     ithuan.tw.
-;; Exported:   2024-11-29 10:04:47
+;; Exported:   2024-12-18 07:39:58
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-ithuan.tw	3600	IN	SOA	dan.ns.cloudflare.com. dns.cloudflare.com. 2048454128 10000 2400 604800 3600
+ithuan.tw	3600	IN	SOA	dan.ns.cloudflare.com. dns.cloudflare.com. 2048617419 10000 2400 604800 3600
 
 ;; NS Records
 ithuan.tw.	86400	IN	NS	dan.ns.cloudflare.com.
@@ -43,6 +43,7 @@ hts.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 ithuan.tw.	1	IN	CNAME	i3thuan5.github.io.
 kaxabu.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 lomaji.ithuan.tw.	1	IN	CNAME	i3thuan5.github.io.
+miasenn.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 mitengilay-no-misanopangcah.ithuan.tw.	1	IN	CNAME	mitengilay2.ithuan.tw.
 onmt.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
 piansik.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw.
