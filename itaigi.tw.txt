@@ -5,3 +5,4 @@ itaigi.tw. 	A 	211.73.81.182 		刪除
 itaigi.tw. 	TXT 	google-site-verification=YPoIIlR4EGsLHaiK7NOsHzkfO2uknUF4xHLidl4PlBk 		刪除
 leku.itaigi.tw. 	CNAME 	itaigi.tw 		刪除
 miasenn.itaigi.tw. 	CNAME 	itaigi.tw 		刪除
+hapsing.itaigi.tw. 	CNAME 	diong.ithuan.tw 		刪除
