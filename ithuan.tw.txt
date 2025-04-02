@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     ithuan.tw.
-;; Exported:   2025-03-21 07:52:02
+;; Exported:   2025-04-02 06:23:05
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-ithuan.tw	3600	IN	SOA	dan.ns.cloudflare.com. dns.cloudflare.com. 2049421012 10000 2400 604800 3600
+ithuan.tw	3600	IN	SOA	dan.ns.cloudflare.com. dns.cloudflare.com. 2049524158 10000 2400 604800 3600
 
 ;; NS Records
 ithuan.tw.	86400	IN	NS	dan.ns.cloudflare.com.
@@ -45,11 +45,11 @@ kaxabu.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw. ; cf_tags=cf-proxied:false
 lomaji.ithuan.tw.	1	IN	CNAME	i3thuan5.github.io. ; cf_tags=cf-proxied:false
 miasenn.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw. ; cf_tags=cf-proxied:false
 mitengilay-no-misanopangcah.ithuan.tw.	1	IN	CNAME	mitengilay2.ithuan.tw. ; cf_tags=cf-proxied:false
+ngihaiso.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw. ; cf_tags=cf-proxied:false
 onmt.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw. ; cf_tags=cf-proxied:false
 piansik.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw. ; cf_tags=cf-proxied:false
 sapolita.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw. ; cf_tags=cf-proxied:false
 sapolita-kaldi.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw. ; cf_tags=cf-proxied:false
-sapolita-to-ngiha.ithuan.tw.	1	IN	CNAME	mitengilay2.ithuan.tw. ; cf_tags=cf-proxied:false
 suisiann-dataset.ithuan.tw.	1	IN	CNAME	i3thuan5.github.io. ; cf_tags=cf-proxied:false
 suisiann.ithuan.tw.	1	IN	CNAME	i3thuan5.github.io. ; cf_tags=cf-proxied:false
 suisiann-kautui.ithuan.tw.	1	IN	CNAME	diong.ithuan.tw. ; cf_tags=cf-proxied:false
